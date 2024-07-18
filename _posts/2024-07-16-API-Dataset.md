@@ -1,5 +1,6 @@
 ---
-title : "Getting an API Key"
+# title : "<div style='text-align: center;'><strong>Creating a dataset with YouTube API</strong></div>"
+title : "Creating a dataset with YouTube API"
 date : 2024-07-16 00:00:00 +0000
 categories : [API]
 tags : [API]
@@ -10,29 +11,44 @@ All of these steps have been explained in the official documentation of YouTube 
 
 Log on to [https://console.cloud.google.com](https://console.cloud.google.com/), click on the ‘Select a project’ button and then create a ‘New Project’.
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/46e36ec8-071b-4180-9ec7-65e995e6e8c7/db665888-d60a-4607-a9d1-02abc7009647/Untitled.png)
+![Untitled](images\MakeDataset\MakeProj1.png)
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/46e36ec8-071b-4180-9ec7-65e995e6e8c7/096ad634-352f-43ad-a347-1c6dc0265081/Untitled.png)
+<div style="text-align: center;">
+  <img src="images\MakeDataset\MakeProj2.png" alt="Example Image">
+</div>                                        
 
 After hitting create, select this project from the ‘Select a project’ button on the cloud console. Now look for youTube Data API v3, and click ‘enable’. This should take you to a page where you can see the YouTube API in the Enabled APIs & services section. In the ‘credentials’ section, click ‘+ CREATE CREDENTIALS’ and select ‘API Key’.
 
-**This is confidential, so do not share it with anybody.**
+**API keys are confidential, so do not share.**
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/46e36ec8-071b-4180-9ec7-65e995e6e8c7/17b1391a-a728-4fa7-9498-b16c7be5f457/Untitled.png)
+<div style="text-align: center;">
+  <img src="images\MakeDataset\CreateKey.png" alt="Example Image">
+</div>                                                                      
 
-Now, run the following command in your terminal.
+Once you get the key, it’ll be visible under the API Keys section in the above screen, you can click, copy and use.
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/46e36ec8-071b-4180-9ec7-65e995e6e8c7/05485be8-58b9-4dda-b8d6-1aa1971f2f52/Untitled.png)
+Now, run the following command in your terminal, to be able to work with this API with python.
+
+<div style="text-align: center;">
+  <img src="images\MakeDataset\CreateKey.png" alt="Example Image">
+</div>                                        
 
 ## Collect Data & Preprocess
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/46e36ec8-071b-4180-9ec7-65e995e6e8c7/c02ecfa5-b33f-41b7-9b1d-2ade1a4dfa7e/Untitled.png)
+<div style="text-align: center;">
+  <img src="images\MakeDataset\CreateDf.png" alt="Example Image">
+</div>      
 
 This is the structure to create a dataframe like so:
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/46e36ec8-071b-4180-9ec7-65e995e6e8c7/c169a97a-e6b5-489b-80d9-48405387b49b/Untitled.png)
+<div style="text-align: center;">
+  <img src="images\MakeDataset\Df.png" alt="Example Image">
+</div>  
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/46e36ec8-071b-4180-9ec7-65e995e6e8c7/4d33f9f5-b7d5-4633-8285-ebb6d234cea4/Untitled.png)
+<div style="text-align: center;">
+  <img src="images\MakeDataset\Preprocess.png" alt="Example Image">
+</div>  
+
 
 We first convert columns with numerical data to the appropriate numeric data type. Next, we ensure the published date and time of each video are in the correct format and extract the day of the week. Similarly, we parse the video duration, converting it to seconds and setting it to the proper data type. Finally, we determine the number of tags each video has.
 
