@@ -7,11 +7,15 @@ tags : [Streamlit]
 
 # Creating the Dashboard
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/46e36ec8-071b-4180-9ec7-65e995e6e8c7/7e3083e3-1bba-43e7-bcd7-368e30b96d5f/Untitled.png)
+<div style="text-align: center;">
+  <img src="../assets/img/posts/YTDashboard/Dashboard.png" alt="Example Image">
+</div>
 
 ## Initial Settings
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/46e36ec8-071b-4180-9ec7-65e995e6e8c7/ad8d6b04-aa72-41a8-8203-736e823604b4/Untitled.png)
+<div style="text-align: center;">
+  <img src="../assets/img/posts/YTDashboard/Config.png" alt="Example Image">
+</div>
 
 When you visit a webpage, there’s a specific name associated with it, and an icon too (a compact version of the name; for when you have a lot of tabs open). So that’s what the first two parameters in st.config() are for. Next, we have layout and how we want the sidebar to be, when the webpage is opened. More details on https://docs.streamlit.io/develop/api-reference/configuration/st.set_page_config.
 
@@ -34,30 +38,55 @@ Once the API key and channel ID have been received, we create an API client (a t
 
 ## COLUMN 1 - Top Viewed Table & Scatter plot :
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/46e36ec8-071b-4180-9ec7-65e995e6e8c7/5ef6a3de-01e3-48d6-ac5c-02e9f8b694d9/Untitled.png)
+<div style="text-align: center;">
+  <img src="../assets/img/posts/YTDashboard/Col1.png" alt="Example Image">
+</div>
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/46e36ec8-071b-4180-9ec7-65e995e6e8c7/ea115a41-1ace-4388-9457-87b53bd47ee0/Untitled.png)
+<div style="text-align: center;">
+  <img src="../assets/img/posts/YTDashboard/DfSlice.png" alt="Example Image">
+</div>
 
 This table gives the top performing video titles along with their corresponding view count.
 
-## COLUMN 2 - Views per Year Line Chart & Heatmap :
+<div style="text-align: center;">
+  <img src="../assets/img/posts/YTDashboard/Scatter.png" alt="Example Image">
+</div>
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/46e36ec8-071b-4180-9ec7-65e995e6e8c7/a72f3a54-7763-49c7-a46b-158c3da799ac/Untitled.png)
+This chart shows us how the views and likes are related to each other. The direct relation is positive as views and likes grow together, however, causality isn't certain.
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/46e36ec8-071b-4180-9ec7-65e995e6e8c7/d8c43d1d-2321-48e5-b83e-82d9d8c82c5e/Untitled.png)
+## Column 2 - Views per Year Line Chart & Heatmap :
+
+<div style="text-align: center;">
+  <img src="../assets/img/posts/YTDashboard/Col2.png" alt="Example Image">
+</div>
+
+<div style="text-align: center;">
+  <img src="../assets/img/posts/YTDashboard/Line.png" alt="Example Image">
+</div>
 
 This shows us how the channel viewership has grown over the years. We see a pick at around 2019-20, which is probably due to COVID 19, which saw a surge in digital content consumption, especially technology & education related, worldwide.
 
+
+<div style="text-align: center;">
+  <img src="../assets/img/posts/YTDashboard/Heatmap.png" alt="Example Image">
+</div>
+
 Heatmap gives us an idea of the number of video uploads on different hours of the various days of week.
 
-## The word cloud & info box :
+## Column 3 - Word Cloud & Info Box :
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/46e36ec8-071b-4180-9ec7-65e995e6e8c7/42a7f16a-b4eb-4e1d-b988-8f09edfc51fe/Untitled.png)
+<div style="text-align: center;">
+  <img src="../assets/img/posts/YTDashboard/Col3.png" alt="Example Image">
+</div>
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/46e36ec8-071b-4180-9ec7-65e995e6e8c7/d313c4b5-68aa-4318-8d54-7397d14697f2/784d6385-51da-433f-b421-8512732018df.png)
+<div style="text-align: center;">
+  <img src="../assets/img/posts/YTDashboard/Wordcloud.png" alt="Example Image">
+</div>
 
 Word clouds are a great way to get a glimpse of what the channel mostly is about, moreover, it could be used to identify user sentiment, if made with comments.
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/46e36ec8-071b-4180-9ec7-65e995e6e8c7/63a46f11-ccfa-4430-86a3-57b8e4792a32/Untitled.png)
+<div style="text-align: center;">
+  <img src="../assets/img/posts/YTDashboard/Expander.png" alt="Example Image">
+</div>
 
 This information box is optional, but I thought it just adds to the feel of the project 😄.

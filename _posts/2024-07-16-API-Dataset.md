@@ -14,7 +14,7 @@ Log on to [https://console.cloud.google.com](https://console.cloud.google.com/),
 ![Untitled](../assets/img/posts/MakeDataset/MakeProj1.png)
 
 <div style="text-align: center;">
-  <img src="assets/img/posts/MakeDataset/MakeProj2.png" alt="Example Image">
+  <img src="../assets/img/posts/MakeDataset/MakeProj2.png" alt="Example Image">
 </div>                                        
 
 After hitting create, select this project from the ‘Select a project’ button on the cloud console. Now look for youTube Data API v3, and click ‘enable’. This should take you to a page where you can see the YouTube API in the Enabled APIs & services section. In the ‘credentials’ section, click ‘+ CREATE CREDENTIALS’ and select ‘API Key’.
@@ -22,7 +22,7 @@ After hitting create, select this project from the ‘Select a project’ button
 **API keys are confidential, so do not share.**
 
 <div style="text-align: center;">
-  <img src="assets/img/posts/MakeDataset/CreateKey.png" alt="Example Image">
+  <img src="../assets/img/posts/MakeDataset/CreateKey.png" alt="Example Image">
 </div>                                                                      
 
 Once you get the key, it’ll be visible under the API Keys section in the above screen, you can click, copy and use.
@@ -30,23 +30,23 @@ Once you get the key, it’ll be visible under the API Keys section in the above
 Now, run the following command in your terminal, to be able to work with this API with python.
 
 <div style="text-align: center;">
-  <img src="assets/img/posts/MakeDataset/CreateDf.png" alt="Example Image">
+  <img src="../assets/img/posts/MakeDataset/CreateDf.png" alt="Example Image">
 </div>                                        
 
 ## Collect Data & Preprocess
 
 <div style="text-align: center;">
-  <img src="assets/img/posts/MakeDataset/CreateDf.png" alt="Example Image">
+  <img src="../assets/img/posts/MakeDataset/CreateDf.png" alt="Example Image">
 </div>      
 
 This is the structure to create a dataframe like so:
 
 <div style="text-align: center;">
-  <img src="assets/img/posts/MakeDataset/Df.png" alt="Example Image">
+  <img src="../assets/img/posts/MakeDataset/Df.png" alt="Example Image">
 </div>  
 
 <div style="text-align: center;">
-  <img src="assets/img/posts/MakeDataset/Preprocess.png" alt="Example Image">
+  <img src="../assets/img/posts/MakeDataset/Preprocess.png" alt="Example Image">
 </div>  
 
 
