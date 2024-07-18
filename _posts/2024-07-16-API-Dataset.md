@@ -32,7 +32,7 @@ Once you get the key, it’ll be visible under the API Keys section in the above
 Now, run the following command in your terminal, to be able to work with this API with python.
 
 <div style="text-align: center;">
-  <img src="../assets/img/posts/MakeDataset/CreateDf.png" alt="Example Image">
+  <img src="../assets/img/posts/MakeDataset/InstallClient.png" alt="Example Image">
 </div>                                        
 
 ## Collect Data & Preprocess
