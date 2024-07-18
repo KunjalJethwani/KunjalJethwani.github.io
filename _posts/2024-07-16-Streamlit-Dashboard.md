@@ -17,7 +17,7 @@ tags : [Streamlit]
   <img src="../assets/img/posts/YTDashboard/Config.png" alt="Example Image">
 </div>
 
-When you visit a webpage, there’s a specific name associated with it, and an icon too (a compact version of the name; for when you have a lot of tabs open). So that’s what the first two parameters in st.config() are for. Next, we have layout and how we want the sidebar to be, when the webpage is opened. More details on https://docs.streamlit.io/develop/api-reference/configuration/st.set_page_config.
+When you visit a webpage, there’s a specific name associated with it, and an favicon too (an icon; a compact version of the webpage name). So that’s what the first two parameters in st.config() are for. Next, we have layout and how we want the sidebar to be, when the webpage is opened. More details on https://docs.streamlit.io/develop/api-reference/configuration/st.set_page_config.
 
 Next, we set the theme using the altair library and specify a title for the page.
 
