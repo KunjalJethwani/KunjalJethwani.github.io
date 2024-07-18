@@ -11,7 +11,7 @@ All of these steps have been explained in the official documentation of YouTube 
 
 Log on to [https://console.cloud.google.com](https://console.cloud.google.com/), click on the ‘Select a project’ button and then create a ‘New Project’.
 
-![Untitled](./images/MakeDataset/MakeProj1.png)
+![Untitled](/assets/img/posts//MakeDataset/MakeProj1.png)
 
 <div style="text-align: center;">
   <img src="./images/MakeDataset/MakeProj2.png" alt="Example Image">
@@ -30,7 +30,7 @@ Once you get the key, it’ll be visible under the API Keys section in the above
 Now, run the following command in your terminal, to be able to work with this API with python.
 
 <div style="text-align: center;">
-  <img src="images/MakeDataset/CreateKey.png" alt="Example Image">
+  <img src="assets/img/posts/MakeDataset/CreateDf.png" alt="Example Image">
 </div>                                        
 
 ## Collect Data & Preprocess
