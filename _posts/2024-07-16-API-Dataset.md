@@ -11,7 +11,7 @@ All of these steps have been explained in the official documentation of YouTube 
 
 Log on to [https://console.cloud.google.com](https://console.cloud.google.com/), click on the ‘Select a project’ button and then create a ‘New Project’.
 
-![Untitled](/assets/img/posts//MakeDataset/MakeProj1.png)
+![Untitled](assets/img/posts/MakeDataset/MakeProj1.png)
 
 <div style="text-align: center;">
   <img src="./images/MakeDataset/MakeProj2.png" alt="Example Image">
